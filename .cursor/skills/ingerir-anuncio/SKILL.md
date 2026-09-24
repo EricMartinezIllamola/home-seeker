@@ -45,7 +45,7 @@ No convertir afirmaciones ambiguas del anunciante en datos objetivos.
 
 `Estado de la vivienda` es la conservación que declara el anuncio, no la valoración.
 
-`Año`, `Orientación` y `Calefacción` solo si el anuncio los indica.
+`Año`, `Orientación` y `Calefacción` solo si el anuncio los indica. «50 a 70 años» de antigüedad no es un año.
 
 `Actualización` es el día y el mes del anuncio, tal como aparecen. No inventar el año. No convertir «hace 3 días» en una fecha.
 
@@ -80,8 +80,8 @@ Identificar la localidad contra `docs/localidades.md`. Si no encaja o es ambigua
 
 Ruta: `anuncios/<carpeta>/<id>.md`.
 
-El `<id>` es el del portal si aparece en la URL. En `https://www.idealista.com/inmueble/12345678/` el id es `12345678`. Un código que el anuncio pide para llamar no es el id. Si no hay URL, preguntar. No inventarlo.
+El `<id>` es el del portal si aparece en la URL. En `https://www.idealista.com/inmueble/12345678/` el id es `12345678`. En `https://www.fotocasa.es/es/comprar/vivienda/.../190639090/d` el id es `190639090`. Un código para llamar o la referencia de la agencia no es el id. Si no hay URL, preguntar. No inventarlo.
 
 ## Contenido original
 
-Copiar el texto relevante con los títulos del anuncio. No resumirlo ni reescribirlo. No añadir apartados vacíos. No copiar botones del portal: hipoteca, ver mapa, idiomas o ver etiqueta.
+Copiar el texto relevante con los títulos del anuncio. No resumirlo ni reescribirlo. No añadir apartados vacíos. No copiar botones del portal: hipoteca, ver mapa, idiomas o ver etiqueta. Si el mismo texto está en catalán y en castellano, guardar solo uno.
